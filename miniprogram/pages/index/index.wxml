@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="centralize">
+    <view class="horizontal-centralize avatar vertical-space" bindtap="bindViewTap">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="name center-text vertical-space">
+      <open-data type="userNickName"></open-data>
+    </view>
+    <view class="motto center-text vertical-space">
+      <text>{{motto}}</text>
+    </view>
+  </view>
+</view>
